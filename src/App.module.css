@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #DEDEDE;
+}
+.container {
+  width: 100%;
+  margin: 50px;
+}
+
+.invisible {
+  display: none;
+}
+
+.female {
+  color: hotpink;
+}
+
+.male {
+  color: blue;
+}
