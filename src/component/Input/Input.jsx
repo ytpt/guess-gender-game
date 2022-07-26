@@ -3,6 +3,7 @@ import * as axios from "axios";
 import s from './Input.module.css';
 import SubmitBtn from "../SubmitBtn";
 import Output from "../Output/Output";
+import ErrorMessage from "../Error/ErrorMessage";
 
 const Input = () => {
 
@@ -17,7 +18,8 @@ const Input = () => {
         return axios.get(gender)
             .then(data => {
                 setName(data.data.name);
-                setGender(data.data.gender);
+                setGender(data.data.gender)
+                console.log(data);
             })
     }
 
@@ -37,8 +39,9 @@ const Input = () => {
                 />
                 <SubmitBtn getGender={getGender} name={name} />
                 <button onClick={clearField}>Clear </button>
+
             </form>
-            {(name) ? <Output name={name} gender={gender}/> : null}
+            {(name) && <Output name={name} gender={gender}/>}
         </div>
     )
 }
