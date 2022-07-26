@@ -41,7 +41,7 @@ const Input = () => {
                 <button onClick={clearField}>Clear </button>
 
             </form>
-            {(name) && <Output name={name} gender={gender}/>}
+            {name && <Output name={name} gender={gender}/>}
         </div>
     )
 }
