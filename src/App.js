@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Input from "./component/Input/Input";
+import Form from "./component/Form/Form";
 import s from './App.module.css';
 
 class App extends Component {
@@ -7,7 +7,7 @@ class App extends Component {
     render () {
         return (
             <div className={s.container} >
-                <Input/>
+                <Form/>
             </div>
         )
     }
