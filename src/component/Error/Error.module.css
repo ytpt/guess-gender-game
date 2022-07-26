@@ -1,0 +1,16 @@
+.errorBlock {
+    max-width: 400px;
+    border: 1px solid red;
+    text-align: center;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.errorBlock h2 {
+    color: red;
+    font-weight: 400;
+}
+
+.errorBlock p {
+    color: red;
+}
