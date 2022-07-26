@@ -1,0 +1,11 @@
+.invisible {
+    display: none;
+}
+
+.female {
+    color: hotpink;
+}
+
+.male {
+    color: blue;
+}

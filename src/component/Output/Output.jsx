@@ -1,5 +1,5 @@
 import React from "react";
-import s from '../App.module.css';
+import s from './Output.module.css';
 
 const Output = ({name, gender}) => {
     return (

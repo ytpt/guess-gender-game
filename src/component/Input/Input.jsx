@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import SubmitBtn from "./SubmitBtn";
-import s from "../App.module.css";
-import Output from "./Output";
 import * as axios from "axios";
+import s from './Input.module.css';
+import SubmitBtn from "../SubmitBtn";
+import Output from "../Output/Output";
 
 const Input = () => {
 

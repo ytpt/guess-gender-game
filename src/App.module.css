@@ -11,15 +11,3 @@ body {
   width: 100%;
   margin: 50px;
 }
-
-.invisible {
-  display: none;
-}
-
-.female {
-  color: hotpink;
-}
-
-.male {
-  color: blue;
-}
