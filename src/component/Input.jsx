@@ -21,6 +21,11 @@ const Input = () => {
             })
     }
 
+    const clearField = () => {
+        setName('');
+        setGender('');
+    }
+
     return (
         <div className={s.container}>
             <form>
@@ -31,6 +36,7 @@ const Input = () => {
                     onChange={(event) => setName(event.target.value)}
                 />
                 <SubmitBtn getGender={getGender} name={name} />
+                <button onClick={clearField}>Clear </button>
             </form>
             {(name) ? <Output name={name} gender={gender}/> : null}
         </div>
