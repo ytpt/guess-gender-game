@@ -27,7 +27,7 @@ const Input = () => {
     }
 
     return (
-        <div className={s.container}>
+        <div>
             <form>
                 <input
                     type='text'
